@@ -1,6 +1,6 @@
-import java.util.*;
+//import java.util.*;
 
-public class LinkedStructure1 {
+class LinkedStructure1 {
     Node head;
 
     static class Node {
@@ -13,7 +13,7 @@ public class LinkedStructure1 {
         }
     }
 
-    public static void Main(String args) {
+    public static void main(String args) {
         LinkedList llist = new LinkedList();
         llist.head = new Node(1);
         Node second = new Node(2);
